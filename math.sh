@@ -1,3 +1,5 @@
+# sh math.sh add in order to activate the case in terminal [add] is the case name
+
 rand1=$(echo $(($RANDOM % 25)))
 rand2=$(echo $(($RANDOM % 25)))
 sum=$(echo $((${rand1} + ${rand2})))
